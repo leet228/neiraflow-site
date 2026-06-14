@@ -56,7 +56,7 @@ export function GlobeBackground({
   className,
   rotationSpeed = 0.0035,
   radius = 1.4,
-  color = "#2fe6ad",
+  color = "#d8d8d8",
 }: GlobeBackgroundProps) {
   const [mounted, setMounted] = React.useState(false)
   React.useEffect(() => setMounted(true), [])

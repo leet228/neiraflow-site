@@ -143,7 +143,7 @@ function PricingToggle() {
           x: (r.left + r.width / 2) / window.innerWidth,
           y: (r.top + r.height / 2) / window.innerHeight,
         },
-        colors: ["#34d399", "#22d3ee", "#a7f3d0", "#ffffff"],
+        colors: ["#ffffff", "#e5e5e5", "#bdbdbd", "#8a8a8a"],
         ticks: 250,
         gravity: 1.1,
         decay: 0.93,

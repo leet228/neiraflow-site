@@ -176,7 +176,7 @@ export function LeadForm() {
               </div>
 
               {state === "error" && (
-                <p className="text-sm text-[#ff6b6b]">
+                <p className="text-sm text-fg/70">
                   Не удалось отправить. Попробуйте ещё раз.
                 </p>
               )}

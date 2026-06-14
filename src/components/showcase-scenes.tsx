@@ -23,9 +23,9 @@ export function DeviceFrame({
   return (
     <div className={cn("card-premium relative overflow-hidden rounded-2xl", className)}>
       <div className="flex items-center gap-2 border-b border-border px-4 py-3">
-        <span className="h-3 w-3 rounded-full bg-[#ff5f57]/80" />
-        <span className="h-3 w-3 rounded-full bg-[#febc2e]/80" />
-        <span className="h-3 w-3 rounded-full bg-[#28c840]/80" />
+        <span className="h-3 w-3 rounded-full bg-white/25" />
+        <span className="h-3 w-3 rounded-full bg-white/20" />
+        <span className="h-3 w-3 rounded-full bg-white/15" />
         <div className="ml-3 flex-1 truncate rounded-md bg-white/5 px-3 py-1 text-center text-[11px] text-faint">
           app.neiraflow.ru
         </div>

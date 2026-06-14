@@ -119,9 +119,9 @@ export function GridBackground({ className }: { className?: string }) {
         }
 
         const gradient = ctx.createRadialGradient(ax, ay, 0, ax, ay, 16)
-        gradient.addColorStop(0, `rgba(45, 226, 170, ${light.brightness})`)
-        gradient.addColorStop(0.5, `rgba(34, 211, 238, ${light.brightness * 0.4})`)
-        gradient.addColorStop(1, "rgba(45, 226, 170, 0)")
+        gradient.addColorStop(0, `rgba(255, 255, 255, ${light.brightness})`)
+        gradient.addColorStop(0.5, `rgba(210, 210, 210, ${light.brightness * 0.4})`)
+        gradient.addColorStop(1, "rgba(255, 255, 255, 0)")
         ctx.fillStyle = gradient
         ctx.beginPath()
         ctx.arc(ax, ay, 16, 0, Math.PI * 2)
