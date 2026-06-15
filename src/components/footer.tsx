@@ -37,8 +37,8 @@ export function Footer() {
           <a href="#lead" className="text-sm text-muted transition-colors hover:text-fg">
             Оставить заявку
           </a>
-          <a href="mailto:hello@neiraflow.tech" className="text-sm text-muted transition-colors hover:text-fg">
-            hello@neiraflow.tech
+          <a href="mailto:info@neiraflow.tech" className="text-sm text-muted transition-colors hover:text-fg">
+            info@neiraflow.tech
           </a>
         </div>
       </div>
